@@ -1,9 +1,11 @@
 print("bem vindo")
-num = int(input("Adivinhe o numero"))
+num = int(input("digite um numero "))
 
 if num == 5:
-    print("você venceu")
+    print("you win ")
+elif num > 5:
+    print("Too High ")
 else:
-    print("você perdeu")
+    print("too low ")
 
-print("fim de jogo!!1")
+print("Game over ")
