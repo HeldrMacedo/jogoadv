@@ -1,11 +1,13 @@
 print("bem vindo")
-num = int(input("digite um numero "))
+num = 0
 
-if num == 5:
-    print("you win ")
-elif num > 5:
-    print("Too High ")
-else:
-    print("too low ")
+while num != 5:
+    num = int(input("Digite um numero"))     
+    if num == 5:
+        print("you win ")
+    elif num > 5:
+        print("Too High ")
+    else:
+        print("too low ")
 
 print("Game over ")
